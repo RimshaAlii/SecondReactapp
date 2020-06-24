@@ -6,7 +6,7 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <App/>,
+  <div><App name="React App" age={22}/></div>,
   document.getElementById('root')
 );
 
